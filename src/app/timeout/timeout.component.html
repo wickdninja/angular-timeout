@@ -1,0 +1,29 @@
+<div class="overlay" *ngIf="inactive">
+  <div class="pop-up-ctn" id="timeOutContainer">
+
+    <div class="close-ctn">
+      <a (click)="stayActive()">
+        <i class="material-icons">close</i>
+      </a>
+    </div>
+
+    <div class="pop-up-ctn-header">
+      <p class="header-text">
+        <i class="material-icons timeout-icon">access_time</i>Session Timeout</p>
+    </div>
+    <div class="pop-up-ctn-body">
+
+      <p class='text-center'>Due to inactivity your pay a person session is about to expire.</p>
+
+      <p class="options">
+        <span class="option">
+          <a (click)="stayActive()">Continue</a>
+        </span>
+        <span class="option">
+          <a (click)="timeout()">Log Off</a>
+        </span>
+      </p>
+
+    </div>
+  </div>
+</div>

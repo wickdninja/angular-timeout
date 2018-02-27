@@ -1,0 +1,18 @@
+.options {
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+.option {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+p {
+    vertical-align: middle;
+}
+
+.timeout-icon {
+    margin: -4px 4px 0px 0px;
+    vertical-align: middle;
+}

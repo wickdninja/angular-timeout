@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  onTimeout() {
+    return () => {
+      console.log('Delegate on timeout function fired!');
+    };
+  }
 }
